@@ -24,14 +24,14 @@
 */
 const sectionElem = document.querySelectorAll('section');
 
-for (let i = 0; i < sectionElem; i = i + 1) {
-    const idElem = document.getElementById(navbar_list);
+for (let i = 0; i < sectionElem.length; i = i + 1) {
+    const idElem = document.getElementById('navbar__list');
 
     const sectionValue = sectionElem[i].id;
     
     const sElem = document.createElement('li');
     sElem.innerText = sectionValue;
-    idElem.appendChild(sElem);
+    navbar__list.appendChild(sElem);
   }
 
 // Add class 'active' to section when near top of viewport
