@@ -61,6 +61,11 @@ window.addEventListener("scroll", () => {
     }
   }
 });
+const aHighlight = document.querySelectorAll("a");
+document.addEventListener("scroll", () => {
+   for (let i = 0; i < section.length; i = i + 1); {
+  }
+});
 
 
 // Scroll to anchor ID using scrollTO event
